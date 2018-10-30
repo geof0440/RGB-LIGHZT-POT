@@ -1,0 +1,31 @@
+int red=2;
+int blue=3;
+int green=4;
+int x=50;
+int y=100;
+int xy=150;
+int OwO=1000;
+int trump= 1;
+int potPin=2
+int potPin=0
+int potPin=3
+int  potPin=
+void setup(){
+  pinMode(blue,OUTPUT);
+  pinMode (red,OUTPUT);
+  pinMode(green,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+printstuff();
+  for (int i=2; i<5; i++){
+  digitalWrite(i,HIGH);
+ delay(xy);
+ digitalWrite(i,LOW);
+ delay(xy);
+}
+}
+void printstuff(){
+  
+}
